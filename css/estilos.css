@@ -3,6 +3,13 @@
     --color-tittle: #e3e7ef;
 }
 
+main{
+    background: url(/images_background/CONECCION_DATOS_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;
