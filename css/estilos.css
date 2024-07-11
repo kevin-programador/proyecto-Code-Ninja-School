@@ -4,11 +4,11 @@
 }
 
 main{
-    background: url(/images_background/CONECCION_DATOS_3.jpg);
-    background-repeat: no-repeat;
+    background: url(/images_background/FONDO_CONECCION_DATOS_AZUL_1.jpg);
+    background-repeat: no-repeat;   
     background-position: center;
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .container{
@@ -113,8 +113,9 @@ main{
 
 .cta{
     display: inline-block;
+    width: 160px;
     background-color: #2091f9;
-    justify-self: center;
+    justify-self:center;
     color: #fff;
     text-decoration: none;
     padding: 13px, 30px ;
@@ -129,12 +130,22 @@ main{
 
 .subtitle{
     color: var(--color-tittle);
+    text-shadow: #fa89ef;
     font-size: 2rem;
     margin-bottom: 25px;
 }
 
+.about_paragraph_subtitle{
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 15px;
+   
+}
+
 .about_paragraph{
-    line-height: 1.7;
+    line-height: 1;
+    color: #000b1f;
+    font-size: 1em;
 }
 
 .about_main{
@@ -144,27 +155,30 @@ main{
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
 
 .about_icons{
     display: grid;
     gap: 1em;
     justify-items: center;
-    width: 260px;
+    width: 300px;
+    padding: 5px 10px 5px 10px;
     overflow: hidden;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.4);
+    margin: 5 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black;
     border-radius: 10px;
 }
 
 .about_icon{
-    width: 40px;
+    width: 50px;
 }
 
 /* knowledge */
 
 .knowledge{
+    margin: 15px;
     background-color: #e5e5f7;
     opacity: 0.8;
     background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
@@ -178,10 +192,17 @@ main{
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
+    box-shadow: #000000;
 }
 
 .knowledge_picture{
     max-width: 500px;
+}
+
+.knowledge.subtitle_k{
+    color:#000000;
+    font-size: 2em;
+   
 }
 
 .knowledge_paragraph{
@@ -192,6 +213,18 @@ main{
 .knowledge_img{
     width: 100%;
     display: block;
+}
+
+.cta_k{
+    display: inline-block;
+    width: 200px;
+    background-color: #2091f9;
+    justify-self:center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px, 30px ;
+    border-radius: 32px;
 }
 
 /* price */
