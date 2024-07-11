@@ -151,7 +151,7 @@ main{
 .about_main{
     padding: auto;
     display: grid;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;
@@ -192,7 +192,6 @@ main{
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
-    box-shadow: #000000;
 }
 
 .knowledge_picture{
