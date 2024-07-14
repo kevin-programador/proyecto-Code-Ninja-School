@@ -1,6 +1,6 @@
 :root{
     --paddign-container : 100 px 0;
-    --color-tittle: #e3e7ef;
+    --color-tittle: #7389b5;
 }
 
 .container{
@@ -9,6 +9,7 @@
     margin: 0 auto;
     overflow: hidden;
    padding: var(--paddign-container);
+   
 }
 
 .hero{
@@ -42,8 +43,11 @@
     align-items: center ;
 }
 
-.nav_title{
+.nav_tittle{
     font-weight: 300;
+   margin-left: 100px;
+   margin-top: 15px;
+   
 }
 
 .nav_link{
@@ -253,3 +257,12 @@ font-weight: 300;
     box-shadow: 0 0 1px rgba(0, 0, 0 .5);
 }
 
+
+.logi{
+    max-width: 100px; 
+    height: auto;
+   position:absolute;
+    margin-left: auto;
+border: 5px solid rgba(8, 98, 90, 0.377);
+
+}
