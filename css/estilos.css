@@ -3,6 +3,14 @@
     --color-tittle: #7389b5;
 }
 
+main{
+    background: url(/images_background/FONDO_CONECCION_DATOS_AZUL_1.jpg);
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;
@@ -30,7 +38,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/images/WhatsApp\ Image\ 2024-07-05\ at\ 5.44.25\ PM.jpeg);
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/images/mano_robotica.jpeg);
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -61,11 +69,11 @@
 }
 
 .nav_items{
-    list-style: none;;
+    list-style: none;
 }
 
 
-.nav_links{
+.nav_link{
     columns: #fff;
     text-decoration: none;
 }
@@ -109,8 +117,9 @@
 
 .cta{
     display: inline-block;
+    width: 160px;
     background-color: #2091f9;
-    justify-self: center;
+    justify-self:center;
     color: #fff;
     text-decoration: none;
     padding: 13px, 30px ;
@@ -125,40 +134,55 @@
 
 .subtitle{
     color: var(--color-tittle);
+    text-shadow: #fa89ef;
     font-size: 2rem;
     margin-bottom: 25px;
 }
 
+.about_paragraph_subtitle{
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 15px;
+   
+}
+
 .about_paragraph{
-    line-height: 1.7;
+    line-height: 1;
+    color: #000b1f;
+    font-size: 1em;
 }
 
 .about_main{
     padding: auto;
     display: grid;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
 
 .about_icons{
     display: grid;
     gap: 1em;
     justify-items: center;
-    width: 260px;
+    width: 300px;
+    padding: 5px 10px 5px 10px;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 5 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black;
+    border-radius: 10px;
 }
 
 .about_icon{
-    width: 40px;
+    width: 50px;
 }
 
 /* knowledge */
 
 .knowledge{
+    margin: 15px;
     background-color: #e5e5f7;
     opacity: 0.8;
     background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
@@ -178,6 +202,12 @@
     max-width: 500px;
 }
 
+.knowledge.subtitle_k{
+    color:#000000;
+    font-size: 2em;
+   
+}
+
 .knowledge_paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
@@ -186,6 +216,18 @@
 .knowledge_img{
     width: 100%;
     display: block;
+}
+
+.cta_k{
+    display: inline-block;
+    width: 200px;
+    background-color: #2091f9;
+    justify-self:center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px, 30px ;
+    border-radius: 32px;
 }
 
 /* price */
