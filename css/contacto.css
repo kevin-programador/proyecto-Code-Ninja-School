@@ -147,7 +147,7 @@ main h3, main h4 {
 }
 
 .formulario input {
-    background-color: rgb(241, 232, 222);
+    background-color: rgb(224, 228, 246);
     width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
