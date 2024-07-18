@@ -233,6 +233,7 @@ main{
 /* price */
 
 .price{
+    
     text-align: center;
 }
 
@@ -294,7 +295,7 @@ font-weight: 300;
     padding: 20px;
     border-radius: 10px;
     text-decoration: none;
-    background-color: #fff;
+    background-color: #8282db7c;
     font-weight: 600;
     box-shadow: 0 0 1px rgba(0, 0, 0 .5);
 }
@@ -307,4 +308,8 @@ font-weight: 300;
     margin-left: auto;
 border: 5px solid rgba(8, 98, 90, 0.377);
 
+}
+.pricee{
+    font-size: 40px;
+    color: #2091f9;
 }
