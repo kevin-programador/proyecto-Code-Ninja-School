@@ -30,7 +30,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/images/mano_robotica.jpeg);
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url();
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -96,11 +96,19 @@
 }
 
 .hero_title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #333;
+    border-radius: 30px;
     font-size: 3rem;
 
 }
 
 .hero_paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    background-color: lime;
+    border-radius: 30px;
+    
     margin-bottom: 20px;
 }
 
@@ -168,4 +176,17 @@ main h3, main h4 {
 
 .formulario button:hover {
     background-color: #993434;
+}
+body {
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el padding predeterminado del body */
+    background-image: url('/images/joan-gamell-ZS67i1HLllo-unsplash.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    font-family: Arial, sans-serif; /* Fuente de texto predeterminada */
+}
+
+main {
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido dentro de main */
+    background-color: rgba(255, 255, 255, 0.7);
 }
