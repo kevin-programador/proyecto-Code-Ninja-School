@@ -4,7 +4,7 @@
 }
 
 main{
-    background: url(/images_background/FONDO_CONECCION_DATOS_AZUL_1.jpg);
+    background: url(/images_background/CONECCION_DATOS_3.jpg);
     background-repeat: no-repeat;   
     background-position: center;
     background-size: cover;
@@ -58,6 +58,7 @@ main{
    
 }
 
+
 .nav_link{
     color : #e3e7ef;
     margin-left: auto;
@@ -106,19 +107,16 @@ main{
 
 }
 
-.hero_title{
-    font-size: 3rem;
-
-}
 
 .hero_paragraph{
     margin-bottom: 20px;
+    font-size: 1.2em;
 }
 
 .cta{
     display: inline-block;
     width: 160px;
-    background-color: #2091f9;
+    background-color: #037cee;
     justify-self:center;
     color: #fff;
     text-decoration: none;
@@ -133,8 +131,8 @@ main{
 }
 
 .subtitle{
-    color: var(--color-tittle);
-    text-shadow: #fa89ef;
+    color: white;
+    text-shadow: #050005;
     font-size: 2rem;
     margin-bottom: 25px;
 }
@@ -302,11 +300,12 @@ font-weight: 300;
 
 
 .logi{
-    max-width: 100px; 
+    max-width: 300px; 
     height: auto;
-   position:absolute;
+    position:absolute;
     margin-left: auto;
-border: 5px solid rgba(8, 98, 90, 0.377);
+    padding: 0 10;
+    border: none;
 
 }
 .pricee{
